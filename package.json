@@ -1,0 +1,17 @@
+{
+  "name": "el_edil",
+  "version": "1.0.0",
+  "description": "CLI that downloads a URL 10 times sequentially and reports average request time, total size and download speed",
+  "type": "module",
+  "bin": {
+    "el_edil": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
